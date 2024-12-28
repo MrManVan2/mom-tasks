@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Patrick Hand', cursive;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+header h1 {
+  color: #ff6f61;
+  font-size: 3rem;
+  margin-bottom: 30px;
+}
+
+main {
+  max-width: 600px;
+  margin: 0 auto;
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.task-generator, .excuse-generator {
+  margin-bottom: 30px;
+  padding: 20px;
+  background: #fff8e1;
+  border-radius: 10px;
+  border: 2px dashed #ffcc80;
+}
+
+.generate-button {
+  background-color: #81d4fa;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  font-family: 'Patrick Hand', cursive;
+  border-radius: 25px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.generate-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+h2 {
+  color: #4fc3f7;
+  margin-bottom: 15px;
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
